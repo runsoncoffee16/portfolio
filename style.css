@@ -1,0 +1,147 @@
+html {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+    font-family: Roboto, sans-serif;
+    font-size: .77rem;
+    font-weight: bold;
+}
+
+.left_nav {
+    display: flex;
+}
+.left_nav img {
+    width: 5rem;
+    margin: auto;
+}
+
+.left_nav h2 {
+    font-size: .95rem;
+    margin: auto;
+    line-height: 95px;
+    font-weight: bold;
+}
+
+.header li {
+    display: inline;
+    padding-right: 2.22rem;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #010B40;
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 4rem 25% 8rem 25%;
+    background-color: #F2EDD0;
+    font-family: Roboto, sans-serif;
+}
+
+.portfolio h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding-top: 1.11rem;
+    padding-bottom: 0;
+}
+
+.portfolio p {
+    font-family: Garamond, serif;
+    font-size: 2.5rem;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: #010B40;
+    font-weight: bold;
+}
+
+.portfolio .button {
+    border: 1px solid #010B40;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+/* About me section */
+.about {
+    padding: 4rem 25% 6rem 25%;
+}
+
+.about h3 {
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+
+.about p {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Projects */
+.projects {
+    padding: 4rem 25% 4rem 25%;
+    background-color: #F2EDD0;
+}
+
+.projects h3{
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif;
+    padding-top: 2rem;
+    margin-top: 0rem;
+}
+
+/* Skills */
+.skills {
+    padding: 0 25% 4rem 25%;
+}
+
+.skills h3{
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif;
+    padding-top: 2rem;
+    margin-top: 0rem;
+}
+
+.skills .logos_wrapper {
+    display: flex;
+}
+
+.logos_wrapper img {
+    width: 3rem;
+    padding: 2rem;
+}
+
+/* Footer */
+footer {
+    font-size: .75rem;
+    font-family: Roboto, sans-serif;
+    padding: 1.5rem 25% 1.5rem 25%;
+    background-color: #F2EDD0;
+}
+
+
+
+
+
+
+
+
+
